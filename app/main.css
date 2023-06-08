@@ -1,0 +1,133 @@
+body{ 
+    border: 5px solid rgb(123, 177, 172);
+    }
+   
+   
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header,
+  form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+body{ 
+    background-color: rgb(175, 220, 221);
+    color: rgb(99, 136, 130);
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    }
+
+ 
+
+
+    .remove-btn, .complete-btn {
+        color: rgb(39, 107, 124);
+
+    }
+
+
+    #mainHeader{
+        background-color: rgb(201, 234, 236);
+        height: 118px;
+        width: 1024;
+        font-size: 80px;
+        font-style: italic;
+        display: flex;
+        justify-content: center;
+        color:rgb(127, 158, 157)
+       
+
+
+    }
+    form input,
+    form button {
+        padding: 0.5rem;
+      font-size: 2rem;
+      border: none;
+      background: rgb(255, 255, 255);
+    }
+   
+    form button {
+        color: #ffffff;
+        background: #690058;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      form button:hover {
+        background: #caddda;
+        color: white;
+      }
+
+
+
+
+
+
+      .todo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+     
+     
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+  }
+ 
+  .todo {
+    margin: 0.5rem;
+    background: white;
+    font-size: 1.5rem;
+    color: rgb(144, 158, 156);
+    display: flex;
+    align-items: center;
+
+  }
+
+  .filter-todo {
+    padding: 1rem;
+  }
+  .todo li {
+    flex: 1;
+  }
+
+
+  .remove-btn,
+.complete-btn {
+  background: #89b1ad;
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.complete-btn {
+    background: rgb(134, 192, 165);
+  }
+ 
+.todo-item {
+  text-align: center;
+}
+
+.todo-item.completed {
+  text-decoration: line-through;
+  background-color: rgb(195, 219, 195);
+}
+
+.todo-button {
+  background-color: rgb(135, 201, 191);
+}
